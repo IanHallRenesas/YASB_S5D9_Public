@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../src/tests/r_flash_hp/Mockr_flash_hp.c 
+
+OBJS += \
+./src/tests/r_flash_hp/Mockr_flash_hp.o 
+
+C_DEPS += \
+./src/tests/r_flash_hp/Mockr_flash_hp.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+src/tests/r_flash_hp/%.o: ../src/tests/r_flash_hp/%.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: GNU ARM Cross C Compiler'
+	C:\Users\b3800274\.eclipse\com.renesas.platform_1476787444\Utilities\\/isdebuild arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wunused -Wuninitialized -Wall -Wextra -Wmissing-declarations -Wconversion -Wpointer-arith -Wshadow -Wlogical-op -Waggregate-return -Wfloat-equal  -g3 -D_BL_TESTING -D_RENESAS_SYNERGY_ -I"C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\bsp" -I"C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\driver" -I"C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc" -I"C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\bsp" -I"C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\bsp\cmsis\Include" -I"C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api" -I"C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\instances" -I"C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\src" -I"C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\src\synergy_gen" -I"C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\framework" -I"C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\src\driver\r_sce" -I"C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\src\tests" -std=c99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "$@" -x c "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

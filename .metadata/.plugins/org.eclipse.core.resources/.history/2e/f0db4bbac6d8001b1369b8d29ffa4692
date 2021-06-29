@@ -1,0 +1,232 @@
+src/synergy_gen/common_data.o: ../src/synergy_gen/common_data.c \
+ ../src/synergy_gen/common_data.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\bsp/bsp_api.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\inc\ssp_common_api.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\inc\ssp_version.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\bsp/bsp_cfg.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\bsp/bsp_clock_cfg.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\bsp/bsp_mcu_family_cfg.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\bsp/bsp_mcu_device_pn_cfg.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\bsp/bsp_mcu_device_cfg.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\s5d9\bsp_mcu_info.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\inc\ssp_common_api.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\cmsis\device\renesas\s5d9\include\s5d9.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\bsp\cmsis\Include/core_cm4.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\bsp\cmsis\Include/cmsis_version.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\bsp\cmsis\Include/cmsis_compiler.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\bsp\cmsis\Include/cmsis_gcc.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\bsp\cmsis\Include/mpu_armv7.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\cmsis\device\renesas\s5d9\include\system_S5D9.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\cmsis\device\renesas\s5d9\include\system_s5d9.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_register_protection.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_locking.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_irq.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_group_irq.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_clocks.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\s5d9\bsp_elc.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\s5d9\bsp_cache.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\s5d9\bsp_analog.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_common_analog.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_ioport_api.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\inc\ssp_features.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\inc\ssp_common_api.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_compiler_support.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\instances/r_fmi.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_fmi_api.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_common_leds.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_delay.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_feature.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_mcu_api.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\bsp/bsp_board_cfg.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\board\s5d9_pk\bsp.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\board\s5d9_pk\bsp_init.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\board\s5d9_pk\bsp_qspi.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\board\s5d9_pk\bsp_leds.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\board\s5d9_pk\bsp_ethernet_phy.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_common.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_compiler_support.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_register_protection.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_locking.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_irq.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_group_irq.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_clocks.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\inc\ssp_features.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_common_leds.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_delay.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_feature.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_mcu_api.h \
+ c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_error_checking.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_crypto_api.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_aes_api.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_crypto_api.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_aes_api.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_rsa_api.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_rsa_api.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_ecc_api.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_hash_api.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_trng_api.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_trng_api.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\instances/r_sce.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\driver/r_sce_cfg.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\instances/r_elc.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\driver/r_elc_cfg.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_elc_api.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\instances/r_cgc.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\driver/r_cgc_cfg.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_cgc_api.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\instances/r_ioport.h \
+ C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\driver/r_ioport_cfg.h
+
+../src/synergy_gen/common_data.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\bsp/bsp_api.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\inc\ssp_common_api.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\inc\ssp_version.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\bsp/bsp_cfg.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\bsp/bsp_clock_cfg.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\bsp/bsp_mcu_family_cfg.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\bsp/bsp_mcu_device_pn_cfg.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\bsp/bsp_mcu_device_cfg.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\s5d9\bsp_mcu_info.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\inc\ssp_common_api.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\cmsis\device\renesas\s5d9\include\s5d9.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\bsp\cmsis\Include/core_cm4.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\bsp\cmsis\Include/cmsis_version.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\bsp\cmsis\Include/cmsis_compiler.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\bsp\cmsis\Include/cmsis_gcc.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\bsp\cmsis\Include/mpu_armv7.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\cmsis\device\renesas\s5d9\include\system_S5D9.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\cmsis\device\renesas\s5d9\include\system_s5d9.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_register_protection.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_locking.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_irq.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_group_irq.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_clocks.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\s5d9\bsp_elc.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\s5d9\bsp_cache.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\s5d9\bsp_analog.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_common_analog.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_ioport_api.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\inc\ssp_features.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\inc\ssp_common_api.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_compiler_support.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\instances/r_fmi.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_fmi_api.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_common_leds.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_delay.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_feature.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_mcu_api.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\bsp/bsp_board_cfg.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\board\s5d9_pk\bsp.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\board\s5d9_pk\bsp_init.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\board\s5d9_pk\bsp_qspi.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\board\s5d9_pk\bsp_leds.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\board\s5d9_pk\bsp_ethernet_phy.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_common.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_compiler_support.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_register_protection.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_locking.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_irq.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_group_irq.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_clocks.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\inc\ssp_features.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_common_leds.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_delay.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_feature.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_mcu_api.h:
+
+c:\work\sc32\ssp_2_0_0_yasb\bootloader\synergy\ssp\src\bsp\mcu\all\bsp_error_checking.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_crypto_api.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_aes_api.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_crypto_api.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_aes_api.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_rsa_api.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_rsa_api.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_ecc_api.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_hash_api.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_trng_api.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_trng_api.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\instances/r_sce.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\driver/r_sce_cfg.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\instances/r_elc.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\driver/r_elc_cfg.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_elc_api.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\instances/r_cgc.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\driver/r_cgc_cfg.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\api/r_cgc_api.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy\ssp\inc\driver\instances/r_ioport.h:
+
+C:\Work\SC32\SSP_2_0_0_YASB\Bootloader\synergy_cfg\ssp_cfg\driver/r_ioport_cfg.h:

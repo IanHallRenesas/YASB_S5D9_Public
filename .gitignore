@@ -1,0 +1,12 @@
+﻿Bootloader/Debug
+Bootloader/Image_Tools/__pycache__
+Bootloader/Image_Tools/badkey.key
+Bootloader/src/synergy_gen
+Bootloader/src/tests
+Bootloader/synergy
+Bootloader/synergy_cfg
+*.jlink
+PK_S5D9_BL_Blinky/Debug
+PK_S5D9_BL_Blinky/synergy
+PK_S5D9_BL_Blinky/synergy_cfg
+PK_S5D9_BL_Blinky/src/synergy_gen
