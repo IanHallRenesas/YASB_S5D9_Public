@@ -199,6 +199,9 @@ void boot_main_application(void)
 {
     main_fnptr *p_jump_to_app; // Function pointer main that will be used to jump to application
 
+    // Close the hash driver
+    g_sce_hash_0.p_api->close(g_sce_hash_0.p_ctrl);
+
     // Close the ECC driver
     g_sce_ecc_0.p_api->close(g_sce_ecc_0.p_ctrl);
 

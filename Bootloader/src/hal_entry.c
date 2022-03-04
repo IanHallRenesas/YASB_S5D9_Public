@@ -1,6 +1,5 @@
 /* HAL-only entry function */
 #include "hal_data.h"
-#include "sha256.h"
 #include <string.h>
 #include "bootloader.h"
 
@@ -23,6 +22,14 @@ void hal_entry(void)
         // If opening the ECC driver fails, stop. Cannot verify any image without ECC support.
         while(1);
     }
+
+    /* Open the hash driver */
+    err = g_sce_hash_0.p_api->open(g_sce_hash_0.p_ctrl, g_sce_hash_0.p_cfg);
+    if (SSP_SUCCESS != err)
+    {
+        __BKPT(0);
+    }
+
 
 #if defined _BL_TESTING
 

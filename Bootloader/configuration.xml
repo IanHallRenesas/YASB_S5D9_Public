@@ -294,6 +294,11 @@
       <property id="module.driver.transfer.p_callback" value="NULL"/>
       <property id="module.driver.transfer.irq_ipl" value="board.icu.common.irq.disabled"/>
     </module>
+    <module id="module.driver.sce_hash.888844494">
+      <property id="module.driver.sce_hash.name" value="g_sce_hash_0"/>
+      <property id="module.driver.sce_hash.algorithm" value="module.driver.sce_hash.algorithm.sha256"/>
+      <property id="module.driver.sce_hash.algorithm_id" value=""/>
+    </module>
     <context id="_hal.0">
       <stack module="module.driver.ioport_on_ioport.0"/>
       <stack module="module.driver.cgc_on_cgc.0"/>
@@ -307,6 +312,9 @@
         <stack module="module.driver.transfer_on_dtc.141886118" requires="module.driver.uart_on_sci_uart.requires.transfer_tx"/>
       </stack>
       <stack module="module.driver.qspi_on_qspi.2089286367"/>
+      <stack module="module.driver.sce_hash.888844494">
+        <stack module="module.driver.sce.1184940784" requires="module.driver.sce"/>
+      </stack>
     </context>
     <config id="config.driver.flash_hp">
       <property id="config.driver.flash_hp.param_checking_enable" value="config.driver.flash_hp.param_checking_enable.bsp"/>
@@ -320,6 +328,22 @@
       <property id="config.driver.cgc.subclock_at_reset_enable" value="config.driver.cgc.subclock_at_reset_enable.enabled"/>
       <property id="config.driver.cgc.low_voltage_mode" value="config.driver.cgc.low_voltage_mode.disabled"/>
     </config>
+    <config id="config.driver.ioport">
+      <property id="config.driver.ioport.checking" value="config.driver.ioport.checking.system"/>
+    </config>
+    <config id="config.driver.fmi">
+      <property id="config.driver.fmi.param_checking_enable" value="config.driver.fmi.param_checking_enable.bsp"/>
+      <property id="config.driver.fmi.custom_base_address_symbol" value="g_fmi_data"/>
+      <property id="config.driver.fmi.part_number_mask" value="0xFE00"/>
+    </config>
+    <config id="config.driver.elc">
+      <property id="config.driver.elc.checking" value="config.driver.elc.checking.system"/>
+    </config>
+    <config id="config.driver.dtc">
+      <property id="config.driver.dtc.param_checking_enable" value="config.driver.dtc.param_checking_enable.bsp"/>
+      <property id="config.driver.dtc.software_start" value="config.driver.dtc.software_start.disabled"/>
+      <property id="config.driver.dtc.vector_table" value=".ssp_dtc_vector_table"/>
+    </config>
     <config id="config.driver.sce"/>
     <config id="config.driver.sce_trng"/>
     <config id="config.driver.sce_aes"/>
@@ -330,30 +354,14 @@
     <config id="config.driver.sce_tdes"/>
     <config id="config.driver.sce_ecc"/>
     <config id="config.driver.sce_key_installation"/>
-    <config id="config.driver.ioport">
-      <property id="config.driver.ioport.checking" value="config.driver.ioport.checking.system"/>
-    </config>
     <config id="config.driver.sci_uart">
       <property id="config.driver.sci_uart.external_rts_operation" value="config.driver.sci_uart.external_rts_operation.disabled"/>
       <property id="config.driver.sci_uart.uart_rx_enable" value="config.driver.sci_uart.uart_rx_enable.disabled"/>
       <property id="config.driver.sci_uart.uart_tx_enable" value="config.driver.sci_uart.uart_tx_enable.enabled"/>
       <property id="config.driver.sci_uart.param_checking_enable" value="config.driver.sci_uart.param_checking_enable.bsp"/>
     </config>
-    <config id="config.driver.fmi">
-      <property id="config.driver.fmi.param_checking_enable" value="config.driver.fmi.param_checking_enable.bsp"/>
-      <property id="config.driver.fmi.custom_base_address_symbol" value="g_fmi_data"/>
-      <property id="config.driver.fmi.part_number_mask" value="0xFE00"/>
-    </config>
-    <config id="config.driver.elc">
-      <property id="config.driver.elc.checking" value="config.driver.elc.checking.system"/>
-    </config>
     <config id="config.driver.qspi">
       <property id="config.driver.qspi.param_checking_enable" value="config.driver.qspi.param_checking_enable.bsp"/>
-    </config>
-    <config id="config.driver.dtc">
-      <property id="config.driver.dtc.param_checking_enable" value="config.driver.dtc.param_checking_enable.bsp"/>
-      <property id="config.driver.dtc.software_start" value="config.driver.dtc.software_start.disabled"/>
-      <property id="config.driver.dtc.vector_table" value=".ssp_dtc_vector_table"/>
     </config>
   </synergyModuleConfiguration>
   <synergyPinConfiguration>

@@ -6,7 +6,7 @@
  */
 
 #include "hal_data.h"
-#include "sha256.h"
+#include "sha256_hal.h"
 #include <string.h>
 #include "port.h"
 

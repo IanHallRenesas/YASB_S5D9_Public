@@ -1,32 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <cHelpSettings>
-                
+                            
+    
+    
+    
     
     
     <project name="Bootloader">
-                        
-        
         <provider id="org.eclipse.cdt.ui.provider1"/>
-                        
-        
         <provider id="org.eclipse.linuxtools.cdt.libhover.provider">
-                                    
-            
             <book enabled="true" title="Renesas.Synergy.2.0.0.pack"/>
-                                
-        
         </provider>
-                    
-    
     </project>
-            
+                        
 
     
-    <project name="PK_S5D9_BL_Blinky">
-        <provider id="org.eclipse.cdt.ui.provider1"/>
-        <provider id="org.eclipse.linuxtools.cdt.libhover.provider">
-            <book enabled="true" title="Renesas.Synergy.2.0.0.pack"/>
-        </provider>
-    </project>
     
+    
+    
+    <project name="PK_S5D9_BL_Blinky">
+                                
+        
+        
+        <provider id="org.eclipse.cdt.ui.provider1"/>
+                                
+        
+        
+        <provider id="org.eclipse.linuxtools.cdt.libhover.provider">
+                                                
+            
+            
+            <book enabled="true" title="Renesas.Synergy.2.0.0.pack"/>
+                                            
+        
+        
+        </provider>
+                            
+    
+    
+    </project>
+                
+
+
+
 </cHelpSettings>

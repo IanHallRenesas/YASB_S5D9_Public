@@ -1,8 +1,0 @@
-################################################################################
-# Automatically-generated file. Do not edit!
-################################################################################
-
-USER_OBJS :=
-
-LIBS := -lDSP_Lib -lcrypto_cm4_s5d9_gcc -lNN_Lib -lfmi_cm4_s5d9_gcc -lfmi_R7FS5D97E3A01CFC_gcc
-

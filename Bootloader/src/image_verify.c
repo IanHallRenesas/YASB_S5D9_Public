@@ -85,8 +85,7 @@ uint16_t verify_image(bootloader_image_header_t * p_image_header, uint8_t * p_pu
 {
     ssp_err_t                   err;
     uint16_t                    res = VERIFY_FAIL;
-    BYTE                        hash[SHA256_BLOCK_SIZE];
-    SHA256_CTX                  ctx;
+    uint32_t                    hash[SHA256_DIGEST_SIZE_BYTES / 4];
     r_crypto_data_handle_t      g_msg_digest_handle;
     r_crypto_data_handle_t      ecdsa_public_key_handle;
     r_crypto_data_handle_t      domain_handle = {(uint32_t *)domain, sizeof(domain)/sizeof(uint32_t)};
@@ -110,9 +109,7 @@ uint16_t verify_image(bootloader_image_header_t * p_image_header, uint8_t * p_pu
     }
 
     // Calculate the hash of the image
-    sha256_init(&ctx);
-    sha256_update(&ctx, (BYTE *)&p_image_header->length, (p_image_header->length + 4)); // + 4 for 4 byte length value
-    sha256_final(&ctx, hash);
+    sha256_hash(&g_sce_hash_0, (uint8_t *)&p_image_header->length, (p_image_header->length + 4), (uint8_t *)hash);
 
     // Verify the signature
     g_msg_digest_handle.p_data          = (uint32_t *)hash;

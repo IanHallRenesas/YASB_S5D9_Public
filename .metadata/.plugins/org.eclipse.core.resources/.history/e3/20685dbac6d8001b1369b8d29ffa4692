@@ -1,6 +1,0 @@
-src/tests/unity.o: ../src/tests/unity.c ../src/tests/unity.h \
- ../src/tests/unity_internals.h
-
-../src/tests/unity.h:
-
-../src/tests/unity_internals.h:
